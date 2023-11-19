@@ -1,0 +1,59 @@
+:root {
+  --primaryColor: #1f1f25;
+  --secondaryColor: #272c35;
+  --tertiaryColor: #1C82AD;
+  --quaternaryColor: #03C988;
+}
+
+* {
+  color: white;
+  font-family: 'Inclusive Sans', sans-serif;
+}
+
+body {
+  background-color: var(--primaryColor);
+}
+
+#text {
+  background-color: var(--primaryColor);
+  color: white;
+  padding: 10px;
+}
+
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: var(--secondaryColor);
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#controls {
+  /* border: 1px var(--quaternaryColor) solid; */
+  padding: 5px;
+}
+
+#stats {
+  text-align: right;
+  /* border: 1px var(--quaternaryColor) solid; */
+  color: black;
+  padding: 5px;
+}
+
+#monsterStats {
+  display: none;
+  /* border: 1px var(--quaternaryColor) solid; */
+  color: white;
+  padding: 5px;
+  background-color: red;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+img {
+  width: 15px;
+}
